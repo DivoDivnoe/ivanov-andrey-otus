@@ -1,0 +1,14 @@
+{
+  "name": "homework1-2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "start": "ts-node-esm ./index.ts",
+    "tsc": "tsc"
+  },
+  "author": "Andrey Ivanov",
+  "license": "ISC"
+}

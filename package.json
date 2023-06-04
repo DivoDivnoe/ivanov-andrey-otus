@@ -9,7 +9,7 @@
   "author": "Andrey Ivanov",
   "license": "ISC",
   "workspaces": [
-    "homeworks/*"
+    "homeworks/**/*"
   ],
   "devDependencies": {
     "@types/node": "20.2.5",
