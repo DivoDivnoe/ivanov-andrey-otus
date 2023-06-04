@@ -1,27 +1,12 @@
 {
+  "extends": "../../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "./lib",
-    "target": "ES2015",
-    "lib": ["es2017", "dom"],
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "removeComments": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "exactOptionalPropertyTypes": true,
-    "noImplicitOverride": true,
-    "allowUnreachableCode": false,
-    "skipLibCheck": true,
+    "noEmit": false,
     "noEmitOnError": true,
     "declaration": true,
     "declarationDir": "./types",
     "declarationMap": true
-  },
-  "exclude": ["node_modules"]
+  }
 }

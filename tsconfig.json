@@ -6,7 +6,6 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "removeComments": true,
-    "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -18,8 +17,7 @@
     "noImplicitOverride": true,
     "allowUnreachableCode": false,
     "skipLibCheck": true,
-    "noEmit": true,
-    "allowJs": true
+    "noEmit": true
   },
   "exclude": ["node_modules"]
 }
