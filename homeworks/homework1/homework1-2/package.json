@@ -1,11 +1,11 @@
 {
-  "name": "homework1-2",
+  "name": "tree",
   "version": "1.0.0",
   "type": "module",
   "main": "lib/index.js",
   "description": "",
   "bin": {
-    "show-structure": "./cli.js"
+    "tree": "./cli.js"
   },
   "types": "types/index.d.ts",
   "scripts": {
