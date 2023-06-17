@@ -1,0 +1,17 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "",
+  "bin": {
+    "tree": "./cli.js"
+  },
+  "types": "types/index.d.ts",
+  "scripts": {
+    "start": "ts-node-esm ./index.ts",
+    "build": "tsc"
+  },
+  "author": "Andrey Ivanov",
+  "license": "ISC"
+}
