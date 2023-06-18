@@ -1,0 +1,1 @@
+{"version":3,"file":"filter-words-transform.d.ts","sourceRoot":"","sources":["../core/filter-words-transform.ts"],"names":[],"mappings":";;AAAA,OAAO,MAAM,EAAE,EAAE,iBAAiB,EAAE,MAAM,QAAQ,CAAC;AAEnD,cAAM,oBAAqB,SAAQ,MAAM,CAAC,SAAS;IACxC,UAAU,CAAC,IAAI,EAAE,GAAG,EAAE,SAAS,EAAE,cAAc,EAAE,IAAI,EAAE,iBAAiB;CAQlF;AAED,eAAe,oBAAoB,CAAC"}
