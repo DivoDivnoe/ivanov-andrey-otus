@@ -1,0 +1,17 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "bin": {
+    "text-to-vec": "./cli.js"
+  },
+  "types": "types/index.d.ts",
+  "scripts": {
+    "start": "ts-node-esm ./core/index.ts",
+    "build": "tsc"
+  },
+  "author": "Andrey Ivanov",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"sort-words-transform.d.ts","sourceRoot":"","sources":["../core/sort-words-transform.ts"],"names":[],"mappings":";;AAAA,OAAO,MAAM,EAAE,EAAE,iBAAiB,EAAE,MAAM,QAAQ,CAAC;AAGnD,cAAM,kBAAmB,SAAQ,MAAM,CAAC,SAAS;IACtC,UAAU,CAAC,IAAI,EAAE,GAAG,EAAE,SAAS,EAAE,cAAc,EAAE,IAAI,EAAE,iBAAiB;CAKlF;AAED,eAAe,kBAAkB,CAAC"}
