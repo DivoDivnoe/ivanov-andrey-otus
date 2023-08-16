@@ -42,4 +42,12 @@ describe('buildStructure function', () => {
 `
     );
   });
+
+  it('works correctly with empty folder structure', () => {
+    mock({
+      parent: {}
+    });
+
+    expect(buildStructure(`parent`)).toEqual('parent\n');
+  });
 });
