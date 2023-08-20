@@ -4,7 +4,7 @@ import fs from 'fs';
 const start = '|';
 const branch = '____';
 
-const buildPrefix = (depth: number) => {
+export const buildPrefix = (depth: number) => {
   if (depth < 2) return '';
 
   const length = branch.length * (depth - 1.5);
@@ -13,7 +13,7 @@ const buildPrefix = (depth: number) => {
   return `${start}${space}`;
 };
 
-const buildBranch = (value: string, depth: number) => {
+export const buildBranch = (value: string, depth: number) => {
   const ending = `${value}\n`;
 
   if (!depth) return ending;

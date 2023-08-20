@@ -1,3 +1,5 @@
 index.ts
 tsconfig.json
 mock-structure
+__tests__
+__mocks__
